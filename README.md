@@ -15,5 +15,5 @@ Create an event when a certificate is issued.
 - Modifiers:
     onlyOwner // Allows only the contract owner to issue certificates.
 
-  - Events:
-      CertificateIssued(address, indexed, student, string, certificateHash) // It shall record the issue of certificates.
+- Events:
+    CertificateIssued(address, indexed, student, string, certificateHash) // It shall record the issue of certificates.
